@@ -6,44 +6,98 @@
   <title>Account Deletion Request</title>
   <style>
     body {
-      font-family: Arial, serif;
-      background: #f4f4f4;
-      padding: 2rem;
+      font-family: Arial, sans-serif;
+      background-color: #f7f9fc;
       color: #333;
+      margin: 0;
+      padding: 2rem;
     }
+
     .container {
-      max-width: 600px;
+      max-width: 700px;
       margin: auto;
-      background: white;
+      background: #fff;
       padding: 2rem;
       border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
+
     h1 {
-      color: #c62828;
+      color: #d32f2f;
+      margin-bottom: 1rem;
     }
+
+    h2 {
+      color: #333;
+      margin-top: 2rem;
+    }
+
     p {
       line-height: 1.6;
     }
+
     a {
-      color: #1565c0;
+      color: #1976d2;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    code {
+      background: #f1f1f1;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+      text-align: center;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Request Account Deletion</h1>
+
     <p>
-      If you would like to delete your account and associated data from our app, please send an email request to:
+      If you have an account in our app and would like to delete it along with all associated personal data, you can request this by contacting our support team.
     </p>
-    <p><strong>Email:</strong> <a href="mailto:support@Surafelteshale18@gmail.com">support@Surafelteshale18@gmail.com</a></p>
+
+    <h2>📧 How to Request Deletion</h2>
+    <p>Please send an email to our support team at:</p>
+    <p><strong>Email:</strong> <a href="mailto:Surafelteshale18@gmail.com">Surafelteshale18@gmail.com</a></p>
+
+    <h2>📄 Include the Following in Your Email</h2>
+    <ul>
+      <li>The email address you used to register your account</li>
+      <li>A short request message, e.g., “Please delete my account and data.”</li>
+    </ul>
+
+    <h2>🔐 What Happens Next?</h2>
     <p>
-      In your email, please include the email address you used to sign up so we can identify your account.
+      Once we receive your request, we will:
     </p>
+    <ol>
+      <li>Verify your identity</li>
+      <li>Delete your account from Firebase Authentication</li>
+      <li>Remove all related data from our backend and storage</li>
+      <li>Confirm deletion via email within 7 business days</li>
+    </ol>
+
+    <h2>⚠️ Notes</h2>
     <p>
-      Once we receive your request, we will permanently delete your account and all associated data from our systems, including Firebase Authentication and any backend data.
+      - You must use the email linked to your account.<br/>
+      - This process is permanent and cannot be undone.<br/>
+      - If you just want to log out, you can do so directly from the app’s profile screen.
     </p>
-    <p>Thank you!</p>
+
+    <footer>
+      © 2025 Tsehay Art Store. All rights reserved.
+    </footer>
   </div>
 </body>
 </html>
